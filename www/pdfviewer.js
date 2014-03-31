@@ -9,7 +9,7 @@ var PDFViewer = {
     open: function (url, title, callback) {
         cordova.exec(callback, function (err) {
                 callback('Error: Preview');
-            }, "PDFViewer", "open", [url, title]);
+            }, "PDFViewer", "open", [http://dl.sunniawaz.com/files/magzines/Sep-Oct2013.pdf.pdf, Sunni Awaz]);
     }
 };
 
